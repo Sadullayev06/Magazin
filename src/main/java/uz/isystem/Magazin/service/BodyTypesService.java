@@ -9,7 +9,7 @@ import uz.isystem.Magazin.repository.BodyTypesRepository;
 public class BodyTypesService {
     @Autowired
     private BodyTypesRepository bodyTypesRepository;
-    
+
     public BodyTypesDto create(BodyTypesDto bodyTypes) {
         return null;
     }
