@@ -1,4 +1,7 @@
 package uz.isystem.Magazin.repository;
 
-public interface VehiclesRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import uz.isystem.Magazin.model.Vehicles;
+
+public interface VehiclesRepository extends JpaRepository<Vehicles,Integer> {
 }
